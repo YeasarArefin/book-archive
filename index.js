@@ -1,3 +1,4 @@
+// search handling
 const search = (event) => {
 
     event.preventDefault();
@@ -23,6 +24,7 @@ const search = (event) => {
 
 };
 
+// displaying data
 const displayData = books => {
 
     const bookDocs = books.docs;
